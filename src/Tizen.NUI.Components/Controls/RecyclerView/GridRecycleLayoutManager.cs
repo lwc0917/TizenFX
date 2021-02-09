@@ -15,11 +15,10 @@
  */
 using System;
 using Tizen.NUI.BaseComponents;
-using Tizen.NUI.Components;
 using System.Collections.Generic;
 using System.ComponentModel;
 
-namespace Tizen.NUI.Wearable
+namespace Tizen.NUI.Components
 {
     /// <summary>
     /// [Draft] This class implements a grid box layout.

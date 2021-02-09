@@ -14,11 +14,10 @@
  *
  */
 using Tizen.NUI.BaseComponents;
-using Tizen.NUI.Components;
 using System.Collections.Generic;
 using System.ComponentModel;
 
-namespace Tizen.NUI.Wearable
+namespace Tizen.NUI.Components
 {
     /// <summary>
     /// [Draft] Defalt layout manager for RecyclerView.

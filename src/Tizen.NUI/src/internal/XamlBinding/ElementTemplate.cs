@@ -9,7 +9,7 @@ namespace Tizen.NUI.Binding
     /// Base class for DataTemplate and ControlTemplate classes.
     /// </summary>
     [EditorBrowsable(EditorBrowsableState.Never)]
-    public class ElementTemplate : IElement, IDataTemplate
+    internal class ElementTemplate : IElement, IDataTemplate
     {
         List<Action<object, ResourcesChangedEventArgs>> _changeHandlers;
         Element _parent;
@@ -80,7 +80,6 @@ namespace Tizen.NUI.Binding
         /// Used by the XAML infrastructure to load data templates and set up the content of the resulting UI.
         /// </summary>
         /// <returns></returns>
-        [EditorBrowsable(EditorBrowsableState.Never)]
         public object CreateContent()
         {
             if (LoadTemplate == null)

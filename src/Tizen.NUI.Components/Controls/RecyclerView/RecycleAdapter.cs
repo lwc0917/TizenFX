@@ -16,9 +16,8 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using Tizen.NUI.Components;
 
-namespace Tizen.NUI.Wearable
+namespace Tizen.NUI.Components
 {
     /// <summary>
     /// [Draft] Defalt adapter for RecyclerView.
