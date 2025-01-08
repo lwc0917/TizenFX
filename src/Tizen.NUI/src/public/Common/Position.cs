@@ -85,9 +85,7 @@ namespace Tizen.NUI
         {
             get
             {
-                float ret = Interop.NDalicParentOrigin.ParentOriginTopGet();
-                if (NDalicPINVOKE.SWIGPendingException.Pending) throw new InvalidOperationException("FATAL: get Exception", NDalicPINVOKE.SWIGPendingException.Retrieve());
-                return ret;
+                return ParentOrigin.Top;
             }
         }
 
@@ -99,9 +97,7 @@ namespace Tizen.NUI
         {
             get
             {
-                float ret = Interop.NDalicParentOrigin.ParentOriginBottomGet();
-                if (NDalicPINVOKE.SWIGPendingException.Pending) throw new InvalidOperationException("FATAL: get Exception", NDalicPINVOKE.SWIGPendingException.Retrieve());
-                return ret;
+                return ParentOrigin.Bottom;
             }
         }
 
@@ -113,9 +109,7 @@ namespace Tizen.NUI
         {
             get
             {
-                float ret = Interop.NDalicParentOrigin.ParentOriginLeftGet();
-                if (NDalicPINVOKE.SWIGPendingException.Pending) throw new InvalidOperationException("FATAL: get Exception", NDalicPINVOKE.SWIGPendingException.Retrieve());
-                return ret;
+                return ParentOrigin.Left;
             }
         }
 
@@ -127,9 +121,7 @@ namespace Tizen.NUI
         {
             get
             {
-                float ret = Interop.NDalicParentOrigin.ParentOriginRightGet();
-                if (NDalicPINVOKE.SWIGPendingException.Pending) throw new InvalidOperationException("FATAL: get Exception", NDalicPINVOKE.SWIGPendingException.Retrieve());
-                return ret;
+                return ParentOrigin.Right;
             }
         }
 
@@ -141,9 +133,7 @@ namespace Tizen.NUI
         {
             get
             {
-                float ret = Interop.NDalicParentOrigin.ParentOriginMiddleGet();
-                if (NDalicPINVOKE.SWIGPendingException.Pending) throw new InvalidOperationException("FATAL: get Exception", NDalicPINVOKE.SWIGPendingException.Retrieve());
-                return ret;
+                return ParentOrigin.Middle;
             }
         }
 
@@ -155,10 +145,7 @@ namespace Tizen.NUI
         {
             get
             {
-                global::System.IntPtr cPtr = Interop.NDalicParentOrigin.ParentOriginTopLeftGet();
-                Position ret = (cPtr == global::System.IntPtr.Zero) ? null : new Position(cPtr, false);
-                if (NDalicPINVOKE.SWIGPendingException.Pending) throw new InvalidOperationException("FATAL: get Exception", NDalicPINVOKE.SWIGPendingException.Retrieve());
-                return ret;
+                return ParentOrigin.TopLeft;
             }
         }
 
@@ -170,10 +157,7 @@ namespace Tizen.NUI
         {
             get
             {
-                global::System.IntPtr cPtr = Interop.NDalicParentOrigin.ParentOriginTopCenterGet();
-                Position ret = (cPtr == global::System.IntPtr.Zero) ? null : new Position(cPtr, false);
-                if (NDalicPINVOKE.SWIGPendingException.Pending) throw new InvalidOperationException("FATAL: get Exception", NDalicPINVOKE.SWIGPendingException.Retrieve());
-                return ret;
+                return ParentOrigin.TopCenter;
             }
         }
 
@@ -185,10 +169,7 @@ namespace Tizen.NUI
         {
             get
             {
-                global::System.IntPtr cPtr = Interop.NDalicParentOrigin.ParentOriginTopRightGet();
-                Position ret = (cPtr == global::System.IntPtr.Zero) ? null : new Position(cPtr, false);
-                if (NDalicPINVOKE.SWIGPendingException.Pending) throw new InvalidOperationException("FATAL: get Exception", NDalicPINVOKE.SWIGPendingException.Retrieve());
-                return ret;
+                return ParentOrigin.TopRight;
             }
         }
 
@@ -200,10 +181,7 @@ namespace Tizen.NUI
         {
             get
             {
-                global::System.IntPtr cPtr = Interop.NDalicParentOrigin.ParentOriginCenterLeftGet();
-                Position ret = (cPtr == global::System.IntPtr.Zero) ? null : new Position(cPtr, false);
-                if (NDalicPINVOKE.SWIGPendingException.Pending) throw new InvalidOperationException("FATAL: get Exception", NDalicPINVOKE.SWIGPendingException.Retrieve());
-                return ret;
+                return ParentOrigin.CenterLeft;
             }
         }
 
@@ -215,10 +193,7 @@ namespace Tizen.NUI
         {
             get
             {
-                global::System.IntPtr cPtr = Interop.NDalicParentOrigin.ParentOriginCenterGet();
-                Position ret = (cPtr == global::System.IntPtr.Zero) ? null : new Position(cPtr, false);
-                if (NDalicPINVOKE.SWIGPendingException.Pending) throw new InvalidOperationException("FATAL: get Exception", NDalicPINVOKE.SWIGPendingException.Retrieve());
-                return ret;
+                return ParentOrigin.Center;
             }
         }
 
@@ -230,10 +205,7 @@ namespace Tizen.NUI
         {
             get
             {
-                global::System.IntPtr cPtr = Interop.NDalicParentOrigin.ParentOriginCenterRightGet();
-                Position ret = (cPtr == global::System.IntPtr.Zero) ? null : new Position(cPtr, false);
-                if (NDalicPINVOKE.SWIGPendingException.Pending) throw new InvalidOperationException("FATAL: get Exception", NDalicPINVOKE.SWIGPendingException.Retrieve());
-                return ret;
+                return ParentOrigin.CenterRight;
             }
         }
 
@@ -245,10 +217,7 @@ namespace Tizen.NUI
         {
             get
             {
-                global::System.IntPtr cPtr = Interop.NDalicParentOrigin.ParentOriginBottomLeftGet();
-                Position ret = (cPtr == global::System.IntPtr.Zero) ? null : new Position(cPtr, false);
-                if (NDalicPINVOKE.SWIGPendingException.Pending) throw new InvalidOperationException("FATAL: get Exception", NDalicPINVOKE.SWIGPendingException.Retrieve());
-                return ret;
+                return ParentOrigin.BottomLeft;
             }
         }
 
@@ -260,10 +229,7 @@ namespace Tizen.NUI
         {
             get
             {
-                global::System.IntPtr cPtr = Interop.NDalicParentOrigin.ParentOriginBottomCenterGet();
-                Position ret = (cPtr == global::System.IntPtr.Zero) ? null : new Position(cPtr, false);
-                if (NDalicPINVOKE.SWIGPendingException.Pending) throw new InvalidOperationException("FATAL: get Exception", NDalicPINVOKE.SWIGPendingException.Retrieve());
-                return ret;
+                return ParentOrigin.BottomCenter;
             }
         }
 
@@ -275,10 +241,7 @@ namespace Tizen.NUI
         {
             get
             {
-                global::System.IntPtr cPtr = Interop.NDalicParentOrigin.ParentOriginBottomRightGet();
-                Position ret = (cPtr == global::System.IntPtr.Zero) ? null : new Position(cPtr, false);
-                if (NDalicPINVOKE.SWIGPendingException.Pending) throw new InvalidOperationException("FATAL: get Exception", NDalicPINVOKE.SWIGPendingException.Retrieve());
-                return ret;
+                return ParentOrigin.BottomRight;
             }
         }
 
@@ -290,9 +253,7 @@ namespace Tizen.NUI
         {
             get
             {
-                float ret = Interop.NDalicAnchorPoint.AnchorPointTopGet();
-                if (NDalicPINVOKE.SWIGPendingException.Pending) throw new InvalidOperationException("FATAL: get Exception", NDalicPINVOKE.SWIGPendingException.Retrieve());
-                return ret;
+                return ParentOrigin.Top;
             }
         }
 
@@ -304,9 +265,7 @@ namespace Tizen.NUI
         {
             get
             {
-                float ret = Interop.NDalicAnchorPoint.AnchorPointBottomGet();
-                if (NDalicPINVOKE.SWIGPendingException.Pending) throw new InvalidOperationException("FATAL: get Exception", NDalicPINVOKE.SWIGPendingException.Retrieve());
-                return ret;
+                return ParentOrigin.Bottom;
             }
         }
 
@@ -318,9 +277,7 @@ namespace Tizen.NUI
         {
             get
             {
-                float ret = Interop.NDalicAnchorPoint.AnchorPointLeftGet();
-                if (NDalicPINVOKE.SWIGPendingException.Pending) throw new InvalidOperationException("FATAL: get Exception", NDalicPINVOKE.SWIGPendingException.Retrieve());
-                return ret;
+                return ParentOrigin.Left;
             }
         }
 
@@ -332,9 +289,7 @@ namespace Tizen.NUI
         {
             get
             {
-                float ret = Interop.NDalicAnchorPoint.AnchorPointRightGet();
-                if (NDalicPINVOKE.SWIGPendingException.Pending) throw new InvalidOperationException("FATAL: get Exception", NDalicPINVOKE.SWIGPendingException.Retrieve());
-                return ret;
+                return ParentOrigin.Right;
             }
         }
 
@@ -346,9 +301,7 @@ namespace Tizen.NUI
         {
             get
             {
-                float ret = Interop.NDalicAnchorPoint.AnchorPointMiddleGet();
-                if (NDalicPINVOKE.SWIGPendingException.Pending) throw new InvalidOperationException("FATAL: get Exception", NDalicPINVOKE.SWIGPendingException.Retrieve());
-                return ret;
+                return ParentOrigin.Middle;
             }
         }
 
@@ -360,10 +313,7 @@ namespace Tizen.NUI
         {
             get
             {
-                global::System.IntPtr cPtr = Interop.NDalicAnchorPoint.AnchorPointTopLeftGet();
-                Position ret = (cPtr == global::System.IntPtr.Zero) ? null : new Position(cPtr, false);
-                if (NDalicPINVOKE.SWIGPendingException.Pending) throw new InvalidOperationException("FATAL: get Exception", NDalicPINVOKE.SWIGPendingException.Retrieve());
-                return ret;
+                return ParentOrigin.TopLeft;
             }
         }
 
@@ -375,10 +325,7 @@ namespace Tizen.NUI
         {
             get
             {
-                global::System.IntPtr cPtr = Interop.NDalicAnchorPoint.AnchorPointTopCenterGet();
-                Position ret = (cPtr == global::System.IntPtr.Zero) ? null : new Position(cPtr, false);
-                if (NDalicPINVOKE.SWIGPendingException.Pending) throw new InvalidOperationException("FATAL: get Exception", NDalicPINVOKE.SWIGPendingException.Retrieve());
-                return ret;
+                return ParentOrigin.TopCenter;
             }
         }
 
@@ -390,10 +337,7 @@ namespace Tizen.NUI
         {
             get
             {
-                global::System.IntPtr cPtr = Interop.NDalicAnchorPoint.AnchorPointTopRightGet();
-                Position ret = (cPtr == global::System.IntPtr.Zero) ? null : new Position(cPtr, false);
-                if (NDalicPINVOKE.SWIGPendingException.Pending) throw new InvalidOperationException("FATAL: get Exception", NDalicPINVOKE.SWIGPendingException.Retrieve());
-                return ret;
+                return ParentOrigin.TopRight;
             }
         }
 
@@ -405,10 +349,7 @@ namespace Tizen.NUI
         {
             get
             {
-                global::System.IntPtr cPtr = Interop.NDalicAnchorPoint.AnchorPointCenterLeftGet();
-                Position ret = (cPtr == global::System.IntPtr.Zero) ? null : new Position(cPtr, false);
-                if (NDalicPINVOKE.SWIGPendingException.Pending) throw new InvalidOperationException("FATAL: get Exception", NDalicPINVOKE.SWIGPendingException.Retrieve());
-                return ret;
+                return ParentOrigin.CenterLeft;
             }
         }
 
@@ -420,10 +361,7 @@ namespace Tizen.NUI
         {
             get
             {
-                global::System.IntPtr cPtr = Interop.NDalicAnchorPoint.AnchorPointCenterGet();
-                Position ret = (cPtr == global::System.IntPtr.Zero) ? null : new Position(cPtr, false);
-                if (NDalicPINVOKE.SWIGPendingException.Pending) throw new InvalidOperationException("FATAL: get Exception", NDalicPINVOKE.SWIGPendingException.Retrieve());
-                return ret;
+                return ParentOrigin.Center;
             }
         }
 
@@ -435,10 +373,7 @@ namespace Tizen.NUI
         {
             get
             {
-                global::System.IntPtr cPtr = Interop.NDalicAnchorPoint.AnchorPointCenterRightGet();
-                Position ret = (cPtr == global::System.IntPtr.Zero) ? null : new Position(cPtr, false);
-                if (NDalicPINVOKE.SWIGPendingException.Pending) throw new InvalidOperationException("FATAL: get Exception", NDalicPINVOKE.SWIGPendingException.Retrieve());
-                return ret;
+                return ParentOrigin.CenterRight;
             }
         }
 
@@ -450,10 +385,7 @@ namespace Tizen.NUI
         {
             get
             {
-                global::System.IntPtr cPtr = Interop.NDalicAnchorPoint.AnchorPointBottomLeftGet();
-                Position ret = (cPtr == global::System.IntPtr.Zero) ? null : new Position(cPtr, false);
-                if (NDalicPINVOKE.SWIGPendingException.Pending) throw new InvalidOperationException("FATAL: get Exception", NDalicPINVOKE.SWIGPendingException.Retrieve());
-                return ret;
+                return ParentOrigin.BottomLeft;
             }
         }
 
@@ -465,10 +397,7 @@ namespace Tizen.NUI
         {
             get
             {
-                global::System.IntPtr cPtr = Interop.NDalicAnchorPoint.AnchorPointBottomCenterGet();
-                Position ret = (cPtr == global::System.IntPtr.Zero) ? null : new Position(cPtr, false);
-                if (NDalicPINVOKE.SWIGPendingException.Pending) throw new InvalidOperationException("FATAL: get Exception", NDalicPINVOKE.SWIGPendingException.Retrieve());
-                return ret;
+                return ParentOrigin.BottomCenter;
             }
         }
 
@@ -480,10 +409,7 @@ namespace Tizen.NUI
         {
             get
             {
-                global::System.IntPtr cPtr = Interop.NDalicAnchorPoint.AnchorPointBottomRightGet();
-                Position ret = (cPtr == global::System.IntPtr.Zero) ? null : new Position(cPtr, false);
-                if (NDalicPINVOKE.SWIGPendingException.Pending) throw new InvalidOperationException("FATAL: get Exception", NDalicPINVOKE.SWIGPendingException.Retrieve());
-                return ret;
+                return ParentOrigin.BottomRight;
             }
         }
 
